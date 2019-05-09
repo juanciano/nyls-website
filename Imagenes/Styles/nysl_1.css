@@ -1,0 +1,60 @@
+
+
+header h2 {
+    width: 100%;
+    height: 40px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: auto;
+}
+
+#imagen2{
+    display: none;
+}
+
+.dates{
+    position: relative;
+    top:200px;
+    float:right;
+    width: 91%;
+    left: 185px
+}
+
+p{
+    font-style: italic;
+    margin-left: 70px 
+}
+
+h3{
+    font-size: 25px
+}
+h1{
+    background-image: url(../Imagenes/design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 60px;
+}
+h1{
+    height: 300px;
+    color: white;
+    margin-bottom: auto
+}
+#logo{
+    position: absolute;
+    height: 110px;
+    left: 1000px;
+    top: 310px
+}
+.menu ul{
+    list-style: none;
+    font-size: 20px;
+}
+.dates{
+    top: -250px
+}
+
+.menu li{
+    margin: 50px
+}

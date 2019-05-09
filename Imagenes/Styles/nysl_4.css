@@ -1,0 +1,49 @@
+h1{
+    position: relative;
+    top:30px;
+    text-align: center;
+    border: 2px solid green;
+    background-color: aquamarine;
+    color:cornflowerblue;
+    height: 50px;
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu{
+    position:absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 1;
+    
+}
+.menu a{
+    color:darkblue;
+    border: solid blue 5px;
+    background-color: lightblue;
+    font-size: 30px;
+    text-decoration-color: aqua;
+}
+.menu li,.menu ul{
+    display: inline;
+}
+
+.square{
+    list-style-type: square;
+    
+}
+.circle{
+    list-style-type: circle
+}

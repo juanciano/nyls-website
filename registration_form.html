@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Northside Youth Soccer League</title>
+
+    <link rel="stylesheet" href="Styles/nysl_6.css">
+
+
+</head>
+
+<body>
+
+    <h1>Registration form</h1>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html"> About NYLS</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+                <li><a href="Rules.html">Rules y Policies</a></li>
+                <li><a href="game_information.html">Game information</a></li>
+                <li><a href="registration_form.html" class="activa"> Registration Form</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <form action="show_data.html" method="get">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>
+                Player´s first name:<br>
+                <input type="text" name="firstname" id="firstname" value=""></label>
+
+            <label>
+                Last name:
+                <input type="text" name="lastname" value=""></label><br>
+            <br>
+
+            <label>
+                Street Address:
+                <input type="text" name="Street_Address" value=""></label><br>
+            <br>
+
+            <label>
+                City:
+                <input type="text" name="City" value=""></label>
+
+            <label>
+                Zip Code:
+                <input type="text" name="Zip_Code" value=""></label> <br>
+            <br>
+
+            Birth Date:
+            <input type="date" name="Birthday">
+
+            Gender:
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value=""><br>
+            <br>
+
+            Grade:
+            <input type="radio" name="grade" value="Pre-School"> Pre-School<br>
+            <input type="radio" name="grade" value="1st"> 1st
+            <input type="radio" name="grade" value="2nd"> 2nd
+            <input type="radio" name="grade" value="3rd"> 3rd
+            <input type="radio" name="grade" value="4th"> 4th
+            <input type="radio" name="grade" value="5th"> 5th<br>
+            <br>
+
+            <label>
+                Parent/Guardian:
+                <input type="text" name="Parent/Guardian:" value=""></label><br>
+            <br>
+
+            <label>
+                Contact Phone:
+                <input type="text" name="Contact_Phone:" value=""></label>
+
+            <label>
+                Contact Email:
+                <input type="text" name="Contact_Email:" value=""></label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>School Information</legend>
+            <h3>Which elementary schools do you live near?</h3><br>
+
+            First Closest School:
+            <select name="First_Closest_School:">
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South Elementary">South Elementary</option>
+            </select>
+
+            Second Closest School:
+            <select name="Second_Closest_School:">
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South Elementary">South Elementary</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Position Information</legend>
+            <h3>What position(s) do you normally play? (check all that apply)</h3>
+
+            <label for="forward">Forward</label>
+            <input type="checkbox" name="Forward" id="forward" value="">
+            <label for="defense">Defense</label>
+            <input type="checkbox" name="Defense" id="defense" value=""><br>
+            <label for="midfield">Midfield</label>
+            <input type="checkbox" name="Midfield" id="midfield" value="">
+            <label for="goalkeeper">Goalkeeper</label>
+            <input type="checkbox" name="Goalkeeper" id="goalkeeper" value=""><br>
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Uniform Information</legend>
+            <label for="Uniform">Already Have a Uniform</label>
+            <input type="checkbox" name="Already_Have_a_Uniform" id="Uniform" value=""><br>
+            <br>
+
+            Jersey Size:
+            <select name="Jersey_Size:">
+                <option value="Youth Small">Youth Small</option>
+                <option value="Youth Medium">Youth Medium</option>
+                <option value="Youth Large">Youth Large</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra-Large">Extra-Large</option>
+            </select>
+
+            Shorts Size:
+            <select name="Shorts_Size:">
+                <option value="Youth Small">Youth Small</option>
+                <option value="Youth Medium">Youth Medium</option>
+                <option value="Youth Large">Youth Large</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Extra-Large">Extra-Large</option>
+            </select><br>
+
+        </fieldset>
+
+        <p>
+            <b>Permission to Play</b><br>
+            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.
+            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+        </p><br>
+
+        <label>
+            Parent/Guardian Signature:
+            <input type="text" name="Parent/Guardian_Signature:" value=""></label>
+
+
+        <div class="date">
+            <label>
+                Date:
+                <input type="date" name="Date:" value=""></label><br>
+        </div>
+
+
+
+        <div class="submit">
+            <input type="submit" value="Submit"></div>
+
+
+    </form>
+
+</body>
+
+</html>
